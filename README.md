@@ -4,6 +4,12 @@ A repo where I benchmark exotic and ridiculously powerful machines on AWS
 ## Tools
 
 * [sysbench](https://github.com/akopytov/sysbench)
+
+Installing on Amazon Linux
+```bash
+curl -s https://packagecloud.io/install/repositories/akopytov/sysbench/script.rpm.sh | sudo bash
+sudo yum -y install sysbench
+```
 * [python parallel kmeans](https://github.com/noahgift/benchmarking-aws/blob/main/benchmark.py)
 
 install and benchmark cmd:
