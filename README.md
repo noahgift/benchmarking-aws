@@ -6,6 +6,14 @@ A repo where I benchmark exotic and ridiculously powerful machines on AWS
 * [sysbench](https://github.com/akopytov/sysbench)
 * [python parallel kmeans]
 
+install:
+
+`python3 -m venv ~/.benchmark && source ~/.benchmark/bin/activate && make install`
+
+run: 
+
+`make benchmark-kmeans` 
+
 ## Machines
 
 ### Github Codespaces 4-core Ubuntu
@@ -63,6 +71,25 @@ Threads fairness:
 
 ### Macbook Pro (16-inch, 2021), Apple M1 Max, Memory 64GB
 
+* kmeans
 
+```bash
+(.benchmark) ➜  benchmarking-aws git:(main) make benchmark-kmeans 
+./benchmark.py
+KMeans cluster fit in 0.9891571998596191
+KMeans cluster fit in 0.9297049045562744
+KMeans cluster fit in 0.965522050857544
+KMeans cluster fit in 0.9847841262817383
+KMeans cluster fit in 0.9845497608184814
+KMeans cluster fit in 0.9792351722717285
+KMeans cluster fit in 0.986346960067749
+KMeans cluster fit in 0.9968240261077881
+KMeans cluster fit in 0.97275710105896
+KMeans cluster fit in 1.001432180404663
+Performed 10 KMeans in total time: 1.4205470085144043
+Kmeans/sec:  7.039541768109394
+```
+
+* sysbench
 
 
