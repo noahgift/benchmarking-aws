@@ -10,3 +10,10 @@ benchmark-kmeans:
 
 benchmark-sysbench:
 	./benchmark.sh
+	
+benchmark-sysbench-amazon:
+	#install sysbench
+	curl -s https://packagecloud.io/install/repositories/akopytov/sysbench/script.rpm.sh | sudo bash
+	sudo yum -y install sysbench
+	#run CPU benchmark
+	./benchmark.sh
