@@ -10,6 +10,14 @@ Installing on Amazon Linux
 curl -s https://packagecloud.io/install/repositories/akopytov/sysbench/script.rpm.sh | sudo bash
 sudo yum -y install sysbench
 ```
+
+Alternatively run:
+
+```bash
+make benchmark-sysbench-amazon
+```
+
+
 * [python parallel kmeans](https://github.com/noahgift/benchmarking-aws/blob/main/benchmark.py)
 
 install and benchmark cmd:
