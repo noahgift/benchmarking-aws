@@ -6,9 +6,14 @@ A repo where I benchmark exotic and ridiculously powerful machines on AWS
 * [sysbench](https://github.com/akopytov/sysbench)
 * [python parallel kmeans](https://github.com/noahgift/benchmarking-aws/blob/main/benchmark.py)
 
-install:
+install and benchmark cmd:
 
-`python3 -m venv ~/.benchmark && source ~/.benchmark/bin/activate && make install`
+```bash
+python3 -m venv ~/.benchmark\
+    && source ~/.benchmark/bin/activate\
+    && make install\
+    && benchmark-kmeans
+```
 
 run: 
 
