@@ -156,6 +156,9 @@ Threads fairness:
     execution time (avg/stddev):   2.5765/0.09
 ```
 
+## References
 
+* [Watch on Pragmatic AI Labs YouTube](https://www.youtube.com/watch?v=MAJ-dU725Qc)
+* [Watch on O'Reilly](https://learning.oreilly.com/videos/benchmarking-exotic-and/12272021VIDEOPAIML/)
 
 
