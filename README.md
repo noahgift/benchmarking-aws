@@ -5,10 +5,11 @@ A repo where I benchmark exotic and ridiculously powerful machines on AWS
 ## Results
 
 ![benchmark](https://user-images.githubusercontent.com/58792/147507840-961ddd20-4211-4efb-acf8-bfd824912b7e.png)
-
 ![metrics](https://user-images.githubusercontent.com/58792/147507902-404f52ec-c4bb-4def-ac9b-aecb607e32a1.png)
 
+## Pricing data
 
+* [on-demand-pricing](https://aws.amazon.com/ec2/pricing/on-demand/)
 
 ## Tools
 
