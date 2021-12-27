@@ -92,4 +92,37 @@ Kmeans/sec:  7.039541768109394
 
 * sysbench
 
+```bash
+./benchmark.sh
+Running with CPU Count and Threads:  10
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
 
+Running the test with following options:
+Number of threads: 10
+Initializing random number generator from current time
+
+
+Prime numbers limit: 10000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second: 6801315.33
+
+General statistics:
+    total time:                          10.0001s
+    total number of events:              68015731
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                       18446744073709.55
+         95th percentile:                        0.00
+         sum:                                25764.58
+
+Threads fairness:
+    events (avg/stddev):           6801573.1000/54711.67
+    execution time (avg/stddev):   2.5765/0.09
+```
