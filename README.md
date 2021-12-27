@@ -12,7 +12,7 @@ install and benchmark cmd:
 python3 -m venv ~/.benchmark\
     && source ~/.benchmark/bin/activate\
     && make install\
-    && benchmark-kmeans
+    && make benchmark-kmeans
 ```
 
 run: 
