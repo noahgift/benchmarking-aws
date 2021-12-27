@@ -7,3 +7,6 @@ lint:
 
 benchmark-kmeans:
 	./benchmark.py
+
+benchmark-sysbench:
+	./benchmark.sh
